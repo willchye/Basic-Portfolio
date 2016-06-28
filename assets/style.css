@@ -1,0 +1,85 @@
+
+body{
+	margin:0;
+}
+.topbar{
+    border-bottom: 2px solid #cccccc;
+
+}
+.toptitle{
+	color:#ffffff;
+	background-color:#4aaaa5;
+	width:270px;
+	height:80px;
+	text-align:center;
+	margin-left:120px;
+
+
+}
+h1{
+	font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
+	margin-top:0px;
+	text-align:center;
+	padding:20px;
+}
+.category{
+	position:absolute;
+	top:45px;
+	right:50px;
+
+}
+
+a{
+	font-family:'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+	text-decoration: none;
+	color:#777777;
+	
+}
+.content img{
+	width:10%;
+	height:10%;
+	font-family:'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+
+
+}
+h2{
+	color:#4aaaa5;
+	font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
+	border-bottom: 2px solid #cccccc;
+
+
+}
+.background{
+	background-image: url("cheap_diagonal_fabric.png");
+	color:#777777;
+	padding:40px 0px 40px 0;
+	width:100%;
+}
+.content{
+	border:1px solid #dddddd;
+	width:650px;
+	margin-left:120px;
+	background-color:#ffffff;
+
+
+
+}
+.social{
+	border:1px solid #cccccc;
+	width:270px;
+	margin-left:800px;
+	background-color:#ffffff;
+	top:132px;
+	position:absolute;
+	
+}
+.bottombar{
+	background-color:#666666;
+	text-align:center;
+	height:80px;
+	border-top: 8px solid #4aaaa5;
+}
+h4{
+	margin-top:0px;
+
+}
