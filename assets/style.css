@@ -55,10 +55,11 @@ a{
 	border-right:0.5px solid #dddddd;
 	padding-right:15px;
 	padding-left:5px;
-	
 
 
-
+}
+.line:hover{
+	color:#4aaaa5;
 }
 h2{
 	color:#4aaaa5;
@@ -71,13 +72,13 @@ h3{
 	font-size:25px;
 	font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
 	position:relative;
-	left:20px;
+	left:15px;
 }
 
 .background{
 	background-image: url("concrete_seamless.png");
 	color:#777777;
-	padding:40px 0px 40px 0;
+	padding:100px 0px 100px 0;
 	width:100%;
 }
 .content{
@@ -96,7 +97,7 @@ h3{
 	width:250px;
 	margin-left:800px;
 	background-color:#ffffff;
-	top:123px;
+	top:185px;
 	position:absolute;
 	right:230px;
 	padding:20px;
@@ -117,16 +118,23 @@ h4{font-size:15px;
 }
 .media{
 	position:relative;
-	left:15px;
+	left:8px;
 	width:50px;
 	margin-left:2px;
 	margin-right:2px;
+}
+.media:hover{
+	width:55px;
+	height:55px;
+}
+#pp:hover{
+	font-weight:200px;
 }
 
 
 
 
-/* contact html */
+/*contact html */
 
 form{
 	position:relative;
@@ -134,7 +142,7 @@ form{
 	width:50px;
 }
 input[name="name"]
-{
+{                                                                                                                                                                                                                
 	width:590px;
 	height:20px;
 }
@@ -164,3 +172,24 @@ input[name="message"]
 	margin-left:30px;
 
 }
+
+
+
+
+
+.portfolioleft{
+	float:left;
+	width:50%;
+	height:50%;
+}
+img.subject{
+	max-width:80%;
+    max-height:80%;
+       display: block;
+    margin-left: auto;
+    margin-right: auto
+
+  
+}
+
+
